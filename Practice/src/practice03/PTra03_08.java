@@ -38,15 +38,15 @@ public class PTra03_08 {
 		switch(num) {
 		case 1:
 			System.out.println("オレンジジュース150円");
-			System.out.println("所持金850円");
+			System.out.println("所持金"+(money-150)+"円");
 			break;
 		case 2:
-			System.out.println("リンゴジュース150円");
-			System.out.println("所持金840円");
+			System.out.println("リンゴジュース160円");
+			System.out.println("所持金"+(money-160)+"円");
 			break;
 		case 3:
-			System.out.println("コーヒー150円");
-			System.out.println("所持金800円");
+			System.out.println("コーヒー200円");
+			System.out.println("所持金"+(money-200)+"円");
 			break;
 
 		}
