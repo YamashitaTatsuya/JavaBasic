@@ -18,6 +18,8 @@ public class Item {
 	private String name;
 	private int additionalDamage;
 
+
+
 	public String getName() {
 		return name;
 	}
@@ -33,6 +35,10 @@ public class Item {
 	public void setAdditionalDamage(int additionalDamage) {
 		this.additionalDamage = additionalDamage;
 	}
+
+
+
+
 
 	public Item(String name, int additionalDamage) {
 

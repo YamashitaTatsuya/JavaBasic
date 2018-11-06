@@ -15,14 +15,17 @@ public class Person {
 	/** 基準値 */
 	public static final int BASE_NO = 1000;
 
+
+
+
+
+
+
+
 	/** ユーザID */
-	public int userId;
-	/** ユーザ名 */
-	public String userNm;
-	/** メールアドレス */
-	public String mail;
-	/** パスワード */
-	public String password;
+	private int userId;
+
+
 	/**
 	 * ユーザIDを取得します
 	 * @return ユーザID
@@ -37,6 +40,17 @@ public class Person {
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
+
+
+
+
+
+
+
+	/** ユーザ名 */
+	private String userNm;
+
+
 	/**
 	 * ユーザ名を取得します
 	 * @return ユーザ名
@@ -51,6 +65,17 @@ public class Person {
 	public void setUserNm(String userNm) {
 		this.userNm = userNm;
 	}
+
+
+
+
+
+
+
+	/** メールアドレス */
+	private String mail;
+
+
 	/**
 	 * メールアドレスを取得します
 	 * @return メールアドレス
@@ -65,6 +90,20 @@ public class Person {
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
+
+
+
+
+
+
+
+
+
+	/** パスワード */
+	private String password;
+
+
+
 	/**
 	 * パスワードを取得します
 	 * @return	パスワード
