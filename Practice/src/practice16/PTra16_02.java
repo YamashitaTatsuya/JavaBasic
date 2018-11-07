@@ -9,14 +9,30 @@ package practice16;
 public class PTra16_02 {
 	public static void main(String[] args) {
 
-		boolean b = true;
-		byte by = 100;
-		short s = 300;
-		char c = '日';
-		int i = 1000;
-		long l = 2000L;
-		float f = 3.14F;
-		double d = 453.592;
+		boolean b1 = true;
+		Boolean b2 = b1;
+
+		byte by1 = 100;
+		Byte by2 =by1;
+
+		short s1 = 300;
+		Short s2 = s1;
+
+		char c1 = '日';
+		Character c2 = c1;
+
+		int i1 = 1000;
+		Integer i2 = i1;
+
+		long l1 = 2000L;
+		Long l2 = l1;
+
+		float f1 = 3.14F;
+		Float f2 = f1;
+
+
+		double d1 = 453.592;
+		Double d2 = d1;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 	}
