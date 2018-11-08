@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
  * @author rhizome
  *
  */
-public class ThrowExceptionUtil {
+public abstract class ThrowExceptionUtil {
 	private ThrowExceptionUtil() {
 		/* インスタンス化の禁止 */
 	}
