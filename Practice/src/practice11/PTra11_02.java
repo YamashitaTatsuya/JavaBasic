@@ -23,6 +23,7 @@ public class PTra11_02 {
 		for(Book book: bookmark) {
 			if(book.title.contains(line)) {
 				System.out.println(book.dispBookInfo());
+				System.out.println("-----------------------------");
 			}
 		}
 
